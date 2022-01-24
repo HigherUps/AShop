@@ -1,1 +1,277 @@
+* { 
+    font-family: 'Dongle', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 1100px) {
+    #GyJv {
+        max-width: 50px;
+    }
+    #ZILb {
+        max-width: 50px;
+    }
+    #NCXZe {
+        font-size: 10px;
+        max-width: 100px;
+        max-height: 50px;
+    }
+}
+@media only screen and (max-width: 915px) {
+    div.UZDz {
+        width: 70%;
+    }
+    #xy {
+        display: none;
+    }
+}
+@media only screen and (max-width: 575px) {
+    div.UZDz {
+        width: 100%;
+    }
 
+}
+@media only screen and (max-width: 1400px) {
+    #YUSZL {
+        width: 320px;
+        height: 220px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 180px;
+    }
+}
+@keyframes myAnim {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+  
+    10%,
+    30%,
+    50%,
+    70% {
+      transform: translateX(-10px);
+    }
+  
+    20%,
+    40%,
+    60% {
+      transform: translateX(10px);
+    }
+  
+    80% {
+      transform: translateX(8px);
+    }
+  
+    90% {
+      transform: translateX(-8px);
+    }
+  }
+#woah {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: absolute;
+}
+#tHZb {
+    height: 90%;
+    width: 90%;
+}
+#NCXZe {
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+    border-color: transparent;
+    border-radius: 5px;
+}
+#NCXZe:hover {
+    border-color: black;
+    border-width: 1px;
+}
+.EutJ {
+    background-color: #2b65c2;
+}
+.zAgw {
+    height: 50px;
+    width: 100%;
+    background-color: #fefefe;
+    display: table;
+}
+#OUMU {
+    font-size: 25px;
+}
+.SIgG {
+    background-color:#5250509f;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    width: 8rem;
+    cursor: pointer;
+}
+.hSty {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.pmkN {
+    display: table;
+    float: right;
+}
+.ZRpi {
+    font-size: 33px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 5px;
+    padding-top: 7px;
+    cursor: pointer;
+}
+.nxSs {
+    padding-top: 50px;
+    height: 50px;
+    width: 100%px;
+    margin: 0 auto;
+    display: table;
+}
+.JjQk {
+    display: table-cell;
+    vertical-align: middle;   
+}
+.VxbT {
+    color: rgb(138, 23, 23);
+}
+.zNJF {
+    padding-top: 100px;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+}
+.UZDz {
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    background-color: white;
+    display: table;
+    border-radius: 3%;
+}
+.sRwq {
+    height: 33px;
+    width: 100%;
+    background-color: rgb(212, 212, 32);
+    display: table;
+}
+.sRwq h2 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.AUwK {
+    height: 250px;
+    display: grid;
+    margin-top: 20px;
+    background-color: #9c9c9c9f;
+}
+#HTwS {
+    padding-left: 15px;
+    padding-top: 50px;
+    height: 150px;
+    width: 120px;
+}
+.mSBm {
+    padding-left: 145px;
+    margin-top: -180px;
+}
+#GyJv {
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: transparent;
+}
+.VomO {
+    font-size: 15px;
+}
+#TSGI {
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: transparent;
+    cursor: pointer;
+}
+#ZILb {
+    border-color: transparent;
+    border-radius: 5px;
+}
+#TSGI:hover {
+    background-color:rgba(62, 62, 62, 0.26);
+}
+.MWlH {
+    position: fixed;
+    bottom: 0;
+}
+#xy {
+    padding-left: 5px;
+}
+.ItvYC {
+    width: 75%;
+    height: 1500px;
+    margin: 0 auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    border-radius: 3%
+}
+.kgwim {
+    font-size: 45px;
+}
+.bb {
+    margin: 0 auto;
+    width: 150px;
+}
+.beans {
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    font-size: 50px;
+    border-color: transparent;
+    border-radius: 100px;
+    cursor: pointer;
+}
+.beans:hover {
+    border-color: black;
+    border-width: 1px;
+}
+#a, 
+#b {
+    font-size:40px;
+    font-family: 'Times New Roman', Times, serif;
+    display: none;
+}
+#b::selection {
+    color:red;
+    background-color: default;
+}
+.wFzPy {
+    position: fixed;
+    bottom: 40px;
+    left: 10%;
+    right: 10%;
+    width: 70%;
+    margin: 0 auto;
+    padding: 5px 14px;
+    display: flex;
+    background-color: thistle;
+    animation: myAnim 2s ease 0s infinite normal backwards;
+}
+.PIwUC {
+    font-size: 25px;
+}
+.TYVf {
+    position: absolute;
+    right: 5px;
+
+}
+.TYVf:hover {
+    color: red;
+}
