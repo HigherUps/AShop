@@ -1,3 +1,4 @@
+let pvlvm = 0;
 function beans() {
     console.log('%c TheHigherUps Classified 2022', 'color:red; font-size: 30px; background-color: white;')
     console.log('%c WARNING!', 'background-color: #cc3300; color: white; padding-right: 25px; font-size: 50px;')
@@ -15,7 +16,10 @@ function uiTx() {
     window.location = 'account.html';
 }
 function KtYs() {
-    window.location = 'placeholder_text'
+    pvlvm++
+    if (pvlvm >= 7) {
+        window.location = "/checkout.html"
+    }
 }
 function Hknt() {
     window.location = 'you_suck_you_fucking_whore_ass_bitch_suck_my_fat_dick'

@@ -309,3 +309,16 @@
     font-size: 25px;
     border-radius: 5px;
 }
+.xokbk {
+    display: grid;
+    text-align: center;
+    margin: 0 auto;
+    width: 500px;
+}
+.xokbk img{
+    margin-left: auto;
+    margin-right: auto;
+}
+#zcfbg {
+    margin-top: 15px;
+}
