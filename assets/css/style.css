@@ -77,6 +77,12 @@
     display: none;
     position: absolute;
 }
+#woah img {
+    margin-left: 50%;
+    margin-right: 50%;
+    transform: translateX(-50%);
+
+}
 #tHZb {
     height: 90%;
     width: 90%;
