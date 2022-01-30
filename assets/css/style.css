@@ -375,4 +375,54 @@
     100% {
       transform: rotate(360deg);
     }
-  }
+}
+@keyframes muteAudio {
+    0%,
+    50%,
+    100% {
+      opacity: 1;
+    }
+  
+    25%,
+    75% {
+      opacity: 0;
+    }
+}
+.EaLpb {
+    display: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    bottom: 25px;
+    right: 25px;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 50%;
+    animation: muteAudio 2s ease 0s 1 normal forwards;
+}
+#cwcyW {
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+@keyframes muteButtonDiss {
+    0% {
+      opacity: 1;
+      transform: rotate(0) scale(1);
+    }
+  
+    100% {
+      opacity: 0;
+      transform: rotate(-540deg) scale(0);
+    }
+}
+#cwcyW:active {
+    color: gray;
+}
+#cwcyW:active::selection {
+    color: gray;
+}
+#cwcyW::selection {
+    color: black;
+}
