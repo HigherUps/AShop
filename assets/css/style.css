@@ -47,6 +47,9 @@ WRITTEN FOR AND BY THEHIGHERUPS */
         width: 90%;
         height: 530px;
     }
+    #ZzNmm {
+        display: none;
+    }
 }
 @media only screen and (max-width: 575px) {
     div.UZDz {
@@ -259,8 +262,9 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     border-width: 1px;
 }
 .EutJ {
-    background-color: #2b65c2;
+    background-color: #2d6c9c;
 }
+/* old background color for the website // 2b65c2 */
 .zAgw {
     height: 50px;
     width: 100%;
@@ -543,6 +547,33 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     color: black;
 }
 #cwcyW::selection {
+    color: black;
+}
+#YyfJm {
+    display: none;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 2px;
+    cursor: pointer;
+    border-radius: 50px;
+}
+#YyfJm:active {
+    color: gray;
+}
+#YyfJm:hover {
+    -webkit-animation: muteButtonHover 2s ease 0s infinite normal forwards;
+    animation: muteButtonHover 2s ease 0s infinite normal forwards;
+}
+#YyfJm:active::-moz-selection {
+    color: gray;
+}
+#YyfJm:active::selection {
+    color: gray;
+}
+#YyfJm::-moz-selection {
+    color: black;
+}
+#YyfJm::selection {
     color: black;
 }
 #JUjmh {
