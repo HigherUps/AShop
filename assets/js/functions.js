@@ -58,8 +58,10 @@ function ayZu() {
         alert("You must enter text before submitting");
     }else {
         $('#woah').delay(100).show(10);
+        $('.adsbygoogle').delay(100).hide(10);
         audio.play(); 
         $('#woah').delay(1000).hide(10);
+        $('.adsbygoogle').delay(1000).show(10);
     } 
 }
 function vKacI() {
@@ -70,7 +72,9 @@ function vKacI() {
         alert("You must enter text before submitting");
     }else {
         $('#woah').delay(100).show(10);
+        $('.adsbygoogle').delay(100).hide(10);
         audio.play(); 
         $('#woah').delay(1000).hide(10);
+        $('.adsbygoogle').delay(1000).show(10);
     } 
 }
