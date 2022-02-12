@@ -21,6 +21,9 @@ WRITTEN FOR AND BY THEHIGHERUPS */
         max-width: 100px;
         max-height: 50px;
     }
+    #MnFek {
+        max-width: 50px;
+    }
 }
 @media only screen and (max-width: 1207px) {
     #bmPpJ {
@@ -30,6 +33,18 @@ WRITTEN FOR AND BY THEHIGHERUPS */
         visibility: hidden;
     }
     #VotCT::after {
+        visibility: visible;
+        content: 'Promo Code:';
+        margin-left: -75px;
+        margin-right: 5px;
+    }
+    #xgGWr {
+        max-width: 50px;
+    }
+    #BQEku {
+        visibility: hidden;
+    }
+    #BQEku::after {
         visibility: visible;
         content: 'Promo Code:';
         margin-left: -75px;
@@ -50,12 +65,24 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     #ZzNmm {
         display: none;
     }
+
 }
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 640px) {
     div.UZDz {
         width: 100%;
     }
 
+}
+@media only screen and (max-width: 1376px) {
+    #abtlt {
+        font-size: 22px;
+    }
+    #lthbns {
+        font-size: 22px;
+    }
+    #astbns {
+        font-size: 22px; 
+    }
 }
 @media only screen and (max-width: 1400px) {
     #YUSZL {
@@ -131,7 +158,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
         transform: translateX(-8px);
     }
 }
-  @-webkit-keyframes coolbeanspin {
+@-webkit-keyframes coolbeanspin {
     0% {
         opacity: 0;
         -webkit-transform: rotate(-540deg) scale(2);
@@ -144,7 +171,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
         transform: rotate(0) scale(1);
     }
 }
-  @keyframes coolbeanspin {
+@keyframes coolbeanspin {
     0% {
         opacity: 0;
         -webkit-transform: rotate(-540deg) scale(2);
@@ -265,6 +292,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     background-color: #2d6c9c;
 }
 /* old background color for the website // 2b65c2 */
+/* 2d6c9c */
 .zAgw {
     height: 50px;
     width: 100%;
@@ -321,11 +349,11 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 }
 .UZDz {
     width: 50%;
-    height: 610px;
+    height: 1500px;
     margin: 0 auto;
     background-color: white;
     display: table;
-    border-radius: 3%;
+    border-radius: 1.75%;
 }
 .sRwq {
     height: 33px;
@@ -355,6 +383,9 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     padding-left: 145px;
     margin-top: -180px;
 }
+.mSBm > h3 {
+    font-size: 32px;
+}
 #GyJv {
     width: 150px;
     cursor: pointer;
@@ -383,6 +414,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 .MWlH {
     position: fixed;
     bottom: 0;
+    left: 0;
 }
 #xy {
     padding-left: 5px;
@@ -579,8 +611,8 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 #JUjmh {
     padding-left: 15px;
     padding-top: 50px;
-    height: 150px;
-    width: 150px;
+    height: 155px;
+    width: 140px;
 }
 #Nnusi {
     width: 150px;
@@ -602,10 +634,38 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     cursor: pointer;
 }
 #bsgpw {
-    margin-left: 50px;
+    margin-left: 20px;
 }
 #VotCT::before{
     display: none;
     visibility: hidden;
     content: 'Promo Code: ';
+}
+#QNcYo {
+    padding-left: 15px;
+    padding-top: 50px;
+    height: 150px;
+    width: 120px;
+}
+#OCgmn {
+    margin-left: 20px;
+}
+#MnFek {
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: transparent;
+}
+#xgGWr {
+    border-color: transparent;
+    border-radius: 5px;
+}
+#TpsPg {
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: transparent;
+    cursor: pointer;
 }
