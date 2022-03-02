@@ -105,3 +105,7 @@ function plgSG() {
         $('.adsbygoogle').delay(1000).show(10);
     } 
 }
+// Redirection to Products
+function raYk() {
+    window.location = 'product.html'
+}

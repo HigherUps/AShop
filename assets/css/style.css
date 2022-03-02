@@ -1,4 +1,3 @@
-
 /* COPYRIGHT 2022 THEHIGHERUPS-CLASSIFIED
 WRITTEN FOR AND BY THEHIGHERUPS */
 * { 
@@ -24,6 +23,9 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     #MnFek {
         max-width: 50px;
     }
+    #mafew {
+        max-width: 50px;
+    }
 }
 @media only screen and (max-width: 1207px) {
     #bmPpJ {
@@ -45,6 +47,15 @@ WRITTEN FOR AND BY THEHIGHERUPS */
         visibility: hidden;
     }
     #BQEku::after {
+        visibility: visible;
+        content: 'Promo Code:';
+        margin-left: -75px;
+        margin-right: 5px;
+    }
+    #nmooc {
+        visibility: hidden;
+    }
+    #nmooc::after {
         visibility: visible;
         content: 'Promo Code:';
         margin-left: -75px;
@@ -82,6 +93,9 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     }
     #astbns {
         font-size: 22px; 
+    }
+    #astbnch {
+        font-size: 22px;
     }
 }
 @media only screen and (max-width: 1400px) {
@@ -349,7 +363,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 }
 .UZDz {
     width: 50%;
-    height: 1500px;
+    height: 1100px;
     margin: 0 auto;
     background-color: white;
     display: table;
@@ -648,7 +662,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     width: 120px;
 }
 #OCgmn {
-    margin-left: 20px;
+    margin-left: 5px;
 }
 #MnFek {
     width: 150px;
@@ -668,4 +682,98 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     padding-right: 3px;
     border-color: transparent;
     cursor: pointer;
+}
+#hphez {
+    padding-left: 15px;
+    padding-top: 50px;
+    height: 150px;
+    width: 150px;
+}
+#zdsmk {
+    margin-left: 35px;
+}
+#mafew {
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: transparent;
+}
+#uWnai {
+    margin-left: 5px;
+    border-radius: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+    border-color: transparent;
+    cursor: pointer;
+}
+.nXaAS {
+    display: flex;
+    background-color: white;
+    width: 70vw;
+    height: 80vh;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 1.75%;
+}
+.imgcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    height: 100%;
+    width: 25vw;
+}
+#sultb {
+    width: 90%;
+    height: 50vh;
+}
+.discpro {
+    align-self: center;
+    margin: 0 auto;
+    background: gray;
+    width: 60%;
+    height: 50vh;
+    border-radius: 10px;
+    float: right;
+    color: white;
+}
+.titl {
+    width: 100%;
+    height: 15%;
+}
+.titl h1 {
+    padding-left: 15px;
+    font-size: 6vh;
+}
+.prodbody {
+    font-size: 1.5vw;
+    padding: 25px 0 0 15px;
+}
+.cashout {
+    margin-top: 15px;
+    width: 100%;
+    height: 20%;
+}
+.coInner {
+    height: 100%;
+    width: 85%;
+    margin: 0 auto;
+}
+.coInner h1 {
+    font-size: 2vw
+}
+.coInner button {
+    font-size: 1.5vw;
+    width: 15vw;
+}
+@media only screen and (max-width: 768px) {
+    #sultb {
+        height: 40vh;
+    }
+}
+@media only screen and (max-width: 676px) {
+    #uitah {
+        font-size: 3vh;
+    }
 }
