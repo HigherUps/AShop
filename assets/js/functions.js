@@ -51,16 +51,16 @@ function cdNl() {
     document.getElementById("ZzNmm").style.display = "none";
 }
 function uiTx() {
-    window.location = 'account';
+    window.location = 'account.html';
 }
 function KtYs() {
     pvlvm++
     if (pvlvm >= 7) {
-        window.location = "/checkout"
+        window.location = "/checkout.html"
     }
 }
 function Hknt() {
-    window.location = 'localtoo'
+    window.location = 'you_suck_you_fucking_whore_ass_bitch_suck_my_fat_dick'
 }
 function ayZu() {
     var el = document.getElementById("ZILb").value;
@@ -107,7 +107,16 @@ function plgSG() {
 }
 // Redirection to Products
 function raYk() {
-    window.location = 'lethal_beans';
+    window.location = 'lethal_beans.html';
+}
+function ilAu() {
+    window.location = 'assault_beans_le.html'
+}
+function gdFt() {
+    window.location = 'assault_beans.html';
+}
+function dsFK() {
+    window.location = 'assault_bench.html';
 }
 function toShop() {
     window.location = 'https://www.thehigherups.org/products/assault-bench/order-assault-bench';

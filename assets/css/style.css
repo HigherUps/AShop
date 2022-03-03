@@ -317,10 +317,10 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 }
 .SIgG {
     background-color:#5250509f;
-    padding-left: 5px;
+    padding-left: 17px;
     padding-right: 5px;
     border-radius: 10px;
-    width: 8rem;
+    width: 9rem;
     cursor: pointer;
 }
 .hSty {
@@ -767,6 +767,11 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     font-size: 1.5vw;
     width: 15vw;
 }
+#limedi {
+    font-size: 15px;
+    padding-bottom: 5px;
+    color: #fffb0f;
+}
 @media only screen and (max-width: 768px) {
     #sultb {
         height: 40vh;
@@ -778,6 +783,9 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     }
     #localtext {
         font-size: 2.5vh;
+    }
+    #limedi {
+        font-size: 11.75px;
     }
     #sultb {
         width: 25vw;
@@ -850,6 +858,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     background: none;
     border-radius: 5px;
     border: 1px solid black;
+    padding: 3px;
     font-size: 20px;
 }
 #bnnrbtn:hover {
@@ -873,4 +882,11 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 }
 #orderFull:active {
     border: 1px solid black;
+}
+.outofstock {
+    color: red;
+    font-weight: bold;
+}
+.oosbutton {
+    cursor: default !important;
 }
