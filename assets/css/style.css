@@ -744,7 +744,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 }
 .titl h1 {
     padding-left: 15px;
-    font-size: 6vh;
+    font-size: 40px;
 }
 .prodbody {
     font-size: 1.5vw;
@@ -800,7 +800,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 }
 @media only screen and (max-width: 477px) {
     #uitah {
-        font-size: 7.5vw;
+        font-size: 25px;
     }
     div.prodbody {
         padding-top: 0;
@@ -865,9 +865,11 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     border-radius: 5px;
     border-width: 1px;
     border-color: transparent;
+    color: black;
 }
 #orderFull:hover {
     background-color:rgba(62, 62, 62, 0.26);
+    color: white;
 }
 #orderFull:active {
     border: 1px solid black;
