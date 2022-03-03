@@ -60,7 +60,7 @@ function KtYs() {
     }
 }
 function Hknt() {
-    window.location = 'you_suck_you_fucking_whore_ass_bitch_suck_my_fat_dick'
+    window.location = 'localtoo'
 }
 function ayZu() {
     var el = document.getElementById("ZILb").value;
