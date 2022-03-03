@@ -107,16 +107,16 @@ function plgSG() {
 }
 // Redirection to Products
 function raYk() {
-    window.location = 'lethal_beans.html';
+    window.location = 'lethal_beans';
 }
 function ilAu() {
-    window.location = 'assault_beans_le.html'
+    window.location = 'assault_beans_le'
 }
 function gdFt() {
-    window.location = 'assault_beans.html';
+    window.location = 'assault_beans';
 }
 function dsFK() {
-    window.location = 'assault_bench.html';
+    window.location = 'assault_bench';
 }
 function toShop() {
     window.location = 'https://www.thehigherups.org/products/assault-bench/order-assault-bench';
