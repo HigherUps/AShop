@@ -51,12 +51,12 @@ function cdNl() {
     document.getElementById("ZzNmm").style.display = "none";
 }
 function uiTx() {
-    window.location = 'account.html';
+    window.location = 'account';
 }
 function KtYs() {
     pvlvm++
     if (pvlvm >= 7) {
-        window.location = "/checkout.html"
+        window.location = "/checkout"
     }
 }
 function Hknt() {
