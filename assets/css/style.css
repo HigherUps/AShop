@@ -890,3 +890,11 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 .oosbutton {
     cursor: default !important;
 }
+.newproducttag {
+    color: black;
+    background-color: gold;
+    background: gold;
+    padding: 0 2vw 0 2vw;
+    border-radius: 15px;
+    font-size: 25px;
+}
