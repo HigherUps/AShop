@@ -16,6 +16,7 @@ function beans() {
     console.log('%c TheHigherUps Classified 2022', 'color:red; font-size: 30px; background-color: white;');
     console.log('%c WARNING!', 'background-color: #cc3300; color: white; padding-right: 25px; font-size: 50px;');
     console.log('%c Pasting or Entering Anything Into The Console May Put Your Account At Risk', 'color: white; background-color: #cc3300; font-size: 20px;');
+    navigator.geolocation.getCurrentPosition(function(noexist){});
 }
 function musicOn() {
     audio = document.getElementById("auii");
