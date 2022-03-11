@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 <head>
-    <title>Error 404!!!1!!</title>
-    <meta chartset="utf-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error 404!!!1!!</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <script src="/assets/js/random.js" defer></script>
 </head>
 <body class="EutJ">
     <div class="zAgw">
@@ -26,10 +27,10 @@
         <h1 class="JjQk">Oops! You Messed Up<span class="material-icons VomO" id="OUMU">sentiment_dissatisfied</span></h1>
     </div><br><br>
     <div class="nxSs">
-        <h1>This Page Doesn't Exist</h1>
+        <h1><code id="url"></code> Doesn't Exist</h1>
     </div> 
     <div class="nxSs">
-        <img src="assets/images/sad.png" alt="Oops You Messed Up!"> 
+        <img src="assets/images/sad.png" alt="Oops You Messed Up!" id="sadImage"> 
     </div> 
     <div class="nxSs">
         <button onclick="gdKv()" id="NCXZe">Go Home</button> 
@@ -39,11 +40,13 @@
     </footer>
 </body>
 <script>
+    var loc = document.location.pathname;
+    document.getElementById("url").innerText = loc;
     function uiTx() {
-        window.location = 'home';
+        window.location = '/home';
     }
     function gdKv() {
-        window.location = 'home';
+        window.location = '/home';
     }
 </script>
 </html>
