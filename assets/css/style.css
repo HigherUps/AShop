@@ -26,6 +26,9 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     #mafew {
         max-width: 100px;
     }
+    #kUttp {
+        max-width: 100px;
+    }
 }
 @media only screen and (max-width: 1207px) {
     #bmPpJ {
@@ -76,6 +79,9 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     #ZzNmm {
         display: none;
     }
+    #timey {
+        display: none;
+    }
 
 }
 @media only screen and (max-width: 640px) {
@@ -94,6 +100,9 @@ WRITTEN FOR AND BY THEHIGHERUPS */
         font-size: 22px; 
     }
     #astbnch {
+        font-size: 22px;
+    }
+    #scrtpro {
         font-size: 22px;
     }
 }
@@ -322,6 +331,12 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     border-radius: 10px;
     width: 9rem;
     cursor: pointer;
+    /*
+    font-size: 35px;
+    text-shadow: 3px 3px 0 red, 6px 6px 0 blue, 9px 9px 0 green;
+    width: 9rem;
+    cursor: pointer;
+    */
 }
 .hSty {
     display: table-cell;
@@ -362,7 +377,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 }
 .UZDz {
     width: 50%;
-    height: 1100px;
+    height: 1370px;
     margin: 0 auto;
     background-color: white;
     display: table;
@@ -733,7 +748,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     margin: 0 auto;
     background: gray;
     width: 60%;
-    height: 50vh;
+    height: 55vh;
     border-radius: 10px;
     float: right;
     color: white;
@@ -815,6 +830,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     }
     #sultb {
         width: 30vw;
+        height: 25vh;
         padding-right: 15px;
     }
 }
@@ -891,12 +907,33 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     cursor: default !important;
 }
 .newproducttag {
-    color: black;
     background-color: gold;
-    background: gold;
-    padding: 0 2vw 0 2vw;
-    border-radius: 15px;
+    padding: 0 5px 0 5px;
+    border-radius: 50px;
     font-size: 25px;
+}
+.oosbtag {
+    background: rgb(226, 3, 3);
+    color: white;
+    padding: 0 5px 0 5px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+#MOJqq {
+    padding-left: 15px;
+    padding-top: 50px;
+    height: 150px;
+    width: 150px;
+}
+#svFJg {
+    margin-left: 35px;
+}
+#kUttp {
+    width: 150px;
+    cursor: pointer;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: transparent;
 }
 .goHome {
     margin-top: 15px;
@@ -907,4 +944,37 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 .goHome > span {
     vertical-align: middle;
     font-size: 25px;
+}
+.timeCont {
+    border-radius: 50px;
+    background-color: white;
+    width: 200px;
+    position: fixed;
+    top: 115px;
+    left: 15px;
+    text-align: center;
+}
+@keyframes slideUp {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(-100px);
+    }
+}
+@keyframes slideDown {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(100px);
+    }
+}
+.scrollUp {
+    animation: slideUp 1s ease 0s 1 normal forwards;
+}
+.scrollDown {
+    animation: slideDown 1s ease 0.25s 1 normal forwards;
 }

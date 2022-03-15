@@ -1,3 +1,40 @@
+if(sessionStorage.getItem("banner") === "true") {
+    document.getElementById("ZzNmm").style.display = "none";
+};
+window.onscroll = function() {scrollCheck()};
+function scrollCheck() {
+    var time = document.getElementById("timey");
+    if(document.body.scrollTop > 95 || document.documentElement.scrollTop > 95  ) {
+        time.classList.add("scrollUp");
+    }else {
+        time.classList.remove("scrollUp");
+    }
+}
+function startTime() {
+    const today = new Date();
+    let hrs = today.getHours();
+    let min = today.getMinutes();
+    let sec = today.getSeconds();
+    hrs = rvMil(hrs);
+    min = checkTime(min);
+    sec = checkTime(sec);
+    document.getElementById('hrs').innerHTML =  hrs + ":" + min + ":" + sec;
+    setTimeout(startTime, 1000);
+  }
+  
+function checkTime(i) {
+    if (i < 10) {
+        i = "0" + i
+    };  // add zero in front of numbers < 10
+    return i;
+}
+function rvMil(i) {
+    if (i >= 12) {
+        i = i - 12;
+    };
+    return i;
+}
+startTime();
 let pvlvm = 0;
 document.addEventListener("click", sdsd);
 document.getElementById("cwcyW").addEventListener("click", musicOff);
@@ -13,10 +50,11 @@ function musCounter() {
     }
 }
 function beans() {
-    console.log('%c TheHigherUps Classified 2022', 'color:red; font-size: 30px; background-color: white;');
-    console.log('%c WARNING!', 'background-color: #cc3300; color: white; padding-right: 25px; font-size: 50px;');
-    console.log('%c Pasting or Entering Anything Into The Console May Put Your Account At Risk', 'color: white; background-color: #cc3300; font-size: 20px;');
-    navigator.geolocation.getCurrentPosition(function(noexist){});
+    // console.log('%c TheHigherUps Classified 2022', 'color:red; font-size: 30px; background-color: white;');
+    // console.log('%c WARNING!', 'background-color: #cc3300; color: white; padding-right: 25px; font-size: 50px;');
+    // console.log('%c Pasting or Entering Anything Into The Console May Put Your Account At Risk', 'color: white; background-color: #cc3300; font-size: 20px;');
+    console.log("%c TheHigherUps ", 'font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113); padding-bottom: 15px');
+    console.log("%c Classified ", 'font-weight: bold; font-size: 30px;color: gray; text-shadow: 3px 3px 0 rgb(37,37,37) , 6px 6px 0 rgb(53,53,53) , 9px 9px 0 rgb(69,69,69) , 12px 12px 0 rgb(85,85,85) , 15px 15px 0 rgb(101,101,101) , 18px 18px 0 rgb(117,117,117) , 21px 21px 0 rgb(133,133,133); padding-bottom: 15px; margin-left: 100px');
 }
 function musicOn() {
     audio = document.getElementById("auii");
@@ -50,9 +88,10 @@ function sdsd() {
 }
 function cdNl() {
     document.getElementById("ZzNmm").style.display = "none";
+    sessionStorage.setItem("banner", "true");
 }
 function uiTx() {
-    window.location = 'account';
+    window.location = '/account';
 }
 function KtYs() {
     pvlvm++
@@ -108,17 +147,18 @@ function plgSG() {
 }
 // Redirection to Products
 function raYk() {
-    window.location = 'lethal_beans';
+    window.location = '/lethal_beans';
 }
 function ilAu() {
-    window.location = 'assault_beans_le'
+    window.location = '/assault_beans_le'
 }
 function gdFt() {
-    window.location = 'assault_beans';
+    window.location = '/assault_beans';
 }
 function dsFK() {
-    window.location = 'assault_bench';
+    window.location = '/assault_bench';
 }
 function toShop() {
     window.location = 'https://www.thehigherups.org/products/assault-bench/order-assault-bench';
 }
+
