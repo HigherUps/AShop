@@ -1,7 +1,5 @@
 if(sessionStorage.getItem("banner") === "true") {
     document.getElementById("ZzNmm").style.display = "none";
-}else {
-    return "false";
 }
 window.onscroll = function() {scrollCheck()};
 function scrollCheck() {
