@@ -1,6 +1,6 @@
 if(sessionStorage.getItem("banner") === "true") {
     document.getElementById("ZzNmm").style.display = "none";
-};
+}
 window.onscroll = function() {scrollCheck()};
 function scrollCheck() {
     var time = document.getElementById("timey");
