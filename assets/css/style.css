@@ -79,6 +79,9 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     #ZzNmm {
         display: none;
     }
+    #timey {
+        display: none;
+    }
 
 }
 @media only screen and (max-width: 640px) {
@@ -111,11 +114,6 @@ WRITTEN FOR AND BY THEHIGHERUPS */
         margin-left: auto;
         margin-right: auto;
         padding-top: 180px;
-    }
-}
-@media only screen and (max-width: 750px) {
-    #timey {
-        display: none;
     }
 }
 @-webkit-keyframes secretBeans {
@@ -1020,6 +1018,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
     border: 1px solid black;
     border-radius: 5px;
     padding: 2px;
+    -webkit-text-security: disc;
 }
 .disabledButton {
     cursor: not-allowed;
