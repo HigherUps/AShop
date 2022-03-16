@@ -7,7 +7,7 @@ function isInc() {
     const isValid = urlParams.get('increaseCost');
     if (isValid == "yes") {
         document.getElementById("lbPr").innerText = "Price $15.00";
-        document.getElementById("lowr").innerText = " $60"
+        document.getElementById("lowr").innerText = " $60 (Discount)"
         document.getElementById("abPr").innerText = "Price $12.00"
         document.getElementById("acPr").innerText = "Price $35.00"
 
