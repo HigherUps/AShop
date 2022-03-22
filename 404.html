@@ -41,7 +41,11 @@
 </body>
 <script>
     var loc = document.location.pathname;
-    document.getElementById("url").innerText = loc;
+    if (document.location.pathname === "/404" || document.location.pathname === "/404.html") {
+        document.getElementById("urlTo").innerText = "The 404 Page Does Exsist";
+    }else {
+        document.getElementById("url").innerText = loc;
+    }
     function uiTx() {
         window.location = '/home';
     }
