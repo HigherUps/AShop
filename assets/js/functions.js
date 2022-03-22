@@ -1,5 +1,7 @@
 if(sessionStorage.getItem("banner") === "true") {
     document.getElementById("ZzNmm").style.display = "none";
+}else {
+    console.log('1')
 }
 var queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
@@ -7,37 +9,56 @@ function isInc() {
     const isValid = urlParams.get('increaseCost');
     if (isValid == "yes") {
         document.getElementById("lbPr").innerText = "Price $15.00";
-        document.getElementById("lowr").innerText = " $60 (Discount)"
-        document.getElementById("abPr").innerText = "Price $12.00"
-        document.getElementById("acPr").innerText = "Price $35.00"
-
+        document.getElementById("lowr").innerText = " $60 (Discount)";
+        document.getElementById("abPr").innerText = "Price $12.00";
+        document.getElementById("acPr").innerText = "Price $35.00";
     }
 }
 isInc();
-window.onscroll = function() {scrollCheck()};
-function scrollCheck() {
+window.onscroll = function() {timeScroll()};
+function timeScroll() {
     var time = document.getElementById("timey");
-    if(document.body.scrollTop > 95 || document.documentElement.scrollTop > 95  ) {
-        time.classList.add("scrollUp");
+    if (document.body.scrollTop > 340 || document.documentElement.scrollTop > 340) {
+        time.style.position = "fixed";
+        time.style.top = "10px";
     }else {
-        time.classList.remove("scrollUp");
+        time.style.position = "absolute";
+        time.style.top = "350px";
     }
 }
+// window.onscroll = function() {scrollCheck(), otherScrollCheck()};
+// function scrollCheck() {
+//     var time = document.getElementById("timey");
+//     if(document.body.scrollTop > 95 || document.documentElement.scrollTop > 95  ) {
+//         time.classList.add("scrollUp");
+//         time.style.position = "float";
+//     }else {
+//         time.classList.remove("scrollUp");
+//     }
+// }
+// function otherScrollCheck() {
+//     var header = document.getElementById("hdrTxt");
+//     if(document.body.scrollTop > 203 || document.documentElement.scrollTop > 203 ) {
+//         header.classList.add("headerScroll");
+//     }else {
+//         header.classList.remove("headerScroll");
+//     }
+// }
 function startTime() {
     const today = new Date();
     let hrs = today.getHours();
     let min = today.getMinutes();
     let sec = today.getSeconds();
+    hrs = checkTime(hrs);
     min = checkTime(min);
     sec = checkTime(sec);
     document.getElementById('hrs').innerHTML =  hrs + ":" + min + ":" + sec;
     setTimeout(startTime, 1000);
-  }
-  
+}  
 function checkTime(i) {
     if (i < 10) {
         i = "0" + i
-    };  // add zero in front of numbers < 10
+    };
     return i;
 }
 startTime();
@@ -97,12 +118,12 @@ function cdNl() {
     sessionStorage.setItem("banner", "true");
 }
 function uiTx() {
-    window.location = 'account.html';
+    window.location = '/account';
 }
 function KtYs() {
     pvlvm++
     if (pvlvm >= 7) {
-        window.location = "/checkout.html"
+        window.location = "/checkout"
     }
 }
 function Hknt() {
@@ -153,16 +174,26 @@ function plgSG() {
 }
 // Redirection to Products
 function raYk() {
-    window.location = 'lethal_beans.html';
+    window.location = '/lethal-beans';
 }
 function ilAu() {
-    window.location = 'assault_beans_le.html'
+    const incCost = urlParams.get('increaseCost');
+    if(incCost === "yes") {
+        window.location = '/assault-beans-cbe/?increaseCost=yes'
+    }else {
+        window.location = '/assault-beans-cbe/'
+    }
 }
 function gdFt() {
-    window.location = 'assault_beans.html';
+    const incCost = urlParams.get('increaseCost');
+    if(incCost === "yes") {
+        window.location = '/assault-beans/?increaseCost=yes'
+    }else {
+        window.location = '/assault-beans/'
+    }
 }
 function dsFK() {
-    window.location = 'assault_bench.html';
+    window.location = '/assault-bench/';
 }
 function toShop() {
     window.location = 'https://www.thehigherups.org/products/assault-bench/order-assault-bench';

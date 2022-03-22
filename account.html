@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>So Sad - Account Gone :(</title>
+    <title>Account Creating Coming Soon</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body class="EutJ" id="body">
     <div class="sRwq">
         <h2 id="cbb">Account Creating Coming Soon</h2>
     </div>
-    <h1 class="apple" id="a">No w<span onclick="way()" class="apple" id="b">a</span>y out of here</h1> 
     <div class="zAgw" id="q">
         <div class="hSty">
             <h1 class="SIgG">TheHigherUps</h1>
@@ -26,31 +25,21 @@
             </div>
         </div>
     </div>
-    <div class="nxSs" id="w">
-        <h1 class="JjQk VxbT">Your Account Has Been Permanently Banned Form TheHigherUps</h1>
+    <h1 id="accountHeader">Login To Your Account</h1>
+    <div id="accountBody">
+        <div id="accountForm">
+            <label for="accountEmail" class="accountLabel">Enter Email Address</label><br>
+            <input type="email" name="accountEmail" id="accountEmail"><br><br>
+            <label for="accountPassword" class="accountLabel">Enter Password</label><br>
+            <input type="password" name="accountPassword" id="accountPassword"><br>
+            <button class="accountButton" id="accountLogin" onclick="loginAcc()">Login to Account</button>
+        </div>
     </div>
-    <div class="zNJF" id="e">
-        <img class="ptpr" src="assets/images/sad.png" alt="Sad Image - Account Banned" onclick="secretFunction()"><br><br>
-        <h6>So</h6><h5>Sad</h5><h6>Your</h6><h5>Account</h5><h6>is</h6><h5>Banned</h5>
-    </div>
+
 </body>
 <script>
     function uiTx() {
-        window.location = 'index.html';
-    }
-</script>
-<script>
-    function secretFunction() {
-     document.getElementById("q").style.display = "none"
-     document.getElementById("w").style.display = "none"
-     document.getElementById("e").style.display = "none"
-     document.getElementById("a").style.display = "inline"
-     document.getElementById("b").style.display = "inline"
-    }
-</script>
-<script>
-    function way() {
-        window.location = 'index.html'
+        window.location = '/home';
     }
 </script>
 </html>
