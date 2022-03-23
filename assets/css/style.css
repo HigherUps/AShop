@@ -981,6 +981,7 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 .scrollDown {
     animation: slideDown 1s ease 0.25s 1 normal forwards;
 }
+
 #accountBody {
     width: 500px;
     height: 450px;
@@ -1050,6 +1051,19 @@ WRITTEN FOR AND BY THEHIGHERUPS */
 #accountLogin {
     margin-top: 4rem;
 }
+@media only screen and (max-width: 500px) {
+    #accountBody {
+        width: 100vw;
+    }
+    #accountForm {
+        width: 100%;
+    }
+}
+@media only screen and (max-height: 450px) {
+    #accountBody {
+        height: 100vw;
+    }
+}   
 .noJS {
     width: 100vw;
     background-color: rgb(212, 212, 32);
